@@ -1,0 +1,63 @@
+
+What you'll learn
+======================================================================================================
+Microservices Observability with Distributed Logging
+Elastic Stack which includes Elasticsearh + Logstach + Kibana
+Aspnet Structured Logs with SeriLog
+Microservices Resilience and Fault Tolerance using Polly
+Retry Pattern on Microservices Communication
+Circuit-Breaker Patterns on Microservices Communication
+Microservices Health Monitoring with using WatchDog
+Aspnet health check implementation with custom hc methods
+Microservices Distributed Tracing with OpenTelemetry using Zipkin
+Containerize All Microservices with SeriLog using Docker Compose for Logging on ElasticSearch and Kibana
+Use IHttpClientFactory to implement resilient HTTP requests
+Implement HTTP call retries with exponential backoff with IHttpClientFactory and Polly policies
+Apply Retry Pattern with Polly policies on HttpClientFactory for Aggregator Microservices
+Apply Circuit Breaker Pattern with Polly policies on HttpClientFactory for Aggregator Microservices
+Using Polly for Database Migration Retries for Ordering EF Core Sql Server Migration
+Microservices Distributed Tracing with OpenTelemetry using Zipkin
+
+
+=======================================================================================================
+When you are developing projects in microservices architecture, it is crucial to following Microservices Observability, Microservices Resilience and Monitoring principles.
+
+So, we will separate our Microservices Cross-Cutting Concerns in 4 main pillars;
+
+Microservices Observability with Distributed Logging using ElastichSearch
+
+Microservices Resilience and Fault Tolerance with Appling Retry and Circuit-Breaker patterns using Polly
+
+Microservices Monitoring with Health Checks using WatchDog
+
+Microservices Tracing with OpenTelemetry using Zipkin
+
+So we are going to follow this 4 main pillars and develop our microservices reference application with using latest implementation and best practices on cloud-native microservices architecture style.
+
+We have already developed this microservices reference application in the microservices course, So with this course, we will extend this microservices reference application with Cross-Cutting Concerns for provide microservices resilience.
+
+We are going to cover;
+
+Cross-Cutting Concerns in 4 main parts;
+
+Microservices Observability with Distributed Logging,
+
+This applying Elastic Stack which includes Elasticsearh + Logstach + Kibana and SeriLog nuget package for .net microservices.
+
+We will docker-compose Kibana image from docker hub and feed Kibana with elastic stack
+
+Microservices Resilience and Fault Tolerance using Polly
+
+This will apply Retry and Circuit-Breaker Design Patterns on microservices communication with creating Polly policies.
+
+Microservices Health Monitoring with using WatchDog
+
+This will be the Aspnet Health Check implementation with custom health check methods which includes database availabilities - for example in basket microservices, we will add sub-health check conditions for connecting Redis and RabbitMQ.
+
+Microservices Distributed Tracing with OpenTelemetry using Zipkin
+
+This will be the implementation of OpenTelemetry with Zipkin.
+
+By the end of this course, you'll learn how to design and developing Microservices Cross-Cutting Concerns - Microservices Observability with Distributed Logging, Health Monitoring, Resilient and Fault Tolerance with using Polly".
+
+Before beginning the course, you should be familiar with C#, ASP.NET Core and Docker. This course will have good theoretical information but also will be 90% of hands-on development activities.
